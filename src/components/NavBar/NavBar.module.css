@@ -1,0 +1,32 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+  height: 100%;
+}
+.navBarContainer {
+  display: flex;
+  align-items: start;
+}
+.links {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  cursor: pointer;
+  
+}
+ul li {
+  color: black;
+  font-size: 13px;
+  padding: 3px;
+
+}
+

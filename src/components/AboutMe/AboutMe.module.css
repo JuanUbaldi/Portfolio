@@ -1,0 +1,80 @@
+.aboutMe {
+  height: 100vh;
+
+  scroll-snap-align: center;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.aboutMeTotal {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+.aboutMeH1 {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  position: relative;
+}
+
+.aboutMeRight {
+
+  flex: 1;
+}
+.navBarHero {
+  display: flex;
+  align-items: start;
+}
+
+.aboutMeLeft {
+  flex: 1.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutMeLeftText {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+.aboutMeRightImg {
+  width: 80%;
+  height: 80%;
+  border-radius: 15px;
+  box-shadow: 2px 3px 8px rgba(0, 191, 255, 0.7); /* Color turquesa con una opacidad de 0.7 */
+}
+h4{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left:  0%;
+    width: 100%;
+  }
+}
+h4{
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}

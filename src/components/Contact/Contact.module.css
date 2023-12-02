@@ -1,0 +1,41 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: center;
+}
+
+.contactAll {
+  width: 100%;
+ margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.contactLeft {
+  flex: 1;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.contactRight {
+  flex: 1;
+}
+input {
+  padding: 10px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+textarea {
+  padding: 20px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
