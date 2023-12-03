@@ -22,12 +22,44 @@
   color: purple;
 }
 
-.techsSingle {
+.techsTotal {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   justify-items: center;
-  gap: 120px;
+  gap: 150px;
+  padding: 50px;
+}
+.techH3 {
+  font-size: 18px;
+  color: #131313;
+  background-color: #e7e5e4;
+  letter-spacing: 0.15em;
+  text-shadow: 0.2px -0.2px 0 #767676, -0.2px 0.4px 0.2px #737272,
+    -0.4px 0.8px 0.2px #767474, -0.6px 1.2px 0.2px #787777,
+    -0.8px 1.6px 0.2px #7b7a7a, -1px 2px 0.2px #7f7d7d,
+    -1.2px 2.4px 0.2px #828181, -1.4px 2.8px 0.2px #868585,
+    -1.6px 3.2px 0.2px #8b8a89, -1.8px 3.6px 0.2px #8f8e8d,
+    -2px 4px 0.2px #949392, -2.2px 4.4px 0.2px #999897,
+    -2.4px 4.8px 0.2px #9e9c9c, -2.6px 5.2px 0.2px #a3a1a1,
+    -2.8px 5.6px 0.2px #a8a6a6, -3px 6px 0.2px #adabab,
+    -3.2px 6.4px 0.2px #b2b1b0, -3.4px 6.8px 0.2px #b7b6b5,
+    -3.6px 7.2px 0.2px #bcbbba, -3.8px 7.6px 0.2px #c1bfbf,
+    -4px 8px 0.2px #c6c4c4, -4.2px 8.4px 0.2px #cbc9c8,
+    -4.4px 8.8px 0.2px #cfcdcd, -4.6px 9.2px 0.2px #d4d2d1,
+    -4.8px 9.6px 0.2px #d8d6d5, -5px 10px 0.2px #dbdad9,
+    -5.2px 10.4px 0.2px #dfdddc, -5.4px 10.8px 0.2px #e2e0df,
+    -5.6px 11.2px 0.2px #e4e3e2;
+}
+
+.techsSingle{
+  animation: animate 2s infinite ease alternate;
+  
+}
+@keyframes animate {
+  to {
+    transform: translateY(30px);
+  }
 }

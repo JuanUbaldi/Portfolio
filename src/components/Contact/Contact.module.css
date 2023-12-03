@@ -6,7 +6,7 @@
 
 .contactAll {
   width: 100%;
- margin-left: 150px;
+  margin-left: 150px;
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -20,6 +20,15 @@
 }
 .contactRight {
   flex: 1;
+}
+.contactRightText {
+  margin-top: 475px;
+  margin-left: 370px;
+  position: relative;
+  font-size: 13px;
+}
+.imgSA {
+  position: absolute;
 }
 input {
   padding: 10px;

@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <div className={style.contact}>
-      <NavBar/>
+      <NavBar />
       <div className={style.contactAll}>
         <div className={style.contactLeft}>
           <form ref={ref} onSubmit={handleSubmit}>
@@ -49,7 +49,11 @@ const Contact = () => {
           </form>
         </div>
         <div className={style.contactRight}>
-          <img src="./sudamerica2svg.svg" width={700} height={700} alt="" />
+          <img className={style.imgSA} src="./southAmerica.png" width={700} height={700} alt="" />
+          <div className={style.contactRightText}>
+            <h4>Necochea, Pcia de Bs. As., Republica Argentina</h4>
+            <h4> Lat 38 55 Long 55 38</h4>
+          </div>
         </div>
       </div>
     </div>
